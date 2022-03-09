@@ -1,5 +1,5 @@
 
-import useLocal from "./hooks/useLocal";
+import useLocal from "./useLocal";
 
 export default function useDark  (initialValue)  {
     const [darkMode, setDarkMode] = useLocal('darkMode', initialValue);
